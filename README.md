@@ -10,6 +10,7 @@ Python script to perform various operations on PDF files in order to avoid in he
 ## Install Prerequisites
 `pip3 install -r requirements.txt`
 ## Usage
+```
 positional arguments:
   input             The file(s) to have operations performed on.
   output            Path for desired output file(s).
@@ -20,3 +21,4 @@ optional arguments:
                     list.
   -d, --directory   Merge all PDFs in a single directory sorted
                     alphabetically.
+```
