@@ -149,4 +149,5 @@ def pdf_write_output(writer, writer_output_file):
             logging.info('Merging cancelled by user.')
             SystemExit
 
-setup()
+if __name__ == "__main__":
+    setup()
